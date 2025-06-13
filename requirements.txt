@@ -1,0 +1,18 @@
+# Sistema de Reconhecimento Facial e Monitoramento de EPIs
+# Python 3.10+
+
+# Visão computacional
+opencv-python==4.10.0.84  # Processamento de imagem e vídeo
+ultralytics==8.2.0         # YOLOv8 para detecção de objetos/EPIs
+
+# Processamento facial
+deepface==0.0.89           # Reconhecimento facial com modelos pré-treinados
+tensorflow==2.16.1         # Backend para deep learning (CPU/GPU)
+
+# Processamento numérico e dados
+numpy==1.26.4              # Manipulação de arrays numéricos
+scikit-learn==1.4.2        # Utilizado internamente pelo DeepFace
+
+# Utilitários
+tqdm==4.66.2               # Barra de progresso para operações
+Pillow==10.3.0             # Processamento de imagens
